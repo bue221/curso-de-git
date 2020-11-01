@@ -3,5 +3,45 @@
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  height: 700px;
+}
+
+.contenedor {
+  width: 500px;
+  border: solid 1px #d4d4d4;
+  background-color: whitesmoke;
+  transform: scale(0.9);
+  transition: all 0.5s ease;
+}
+
+.contenedor:hover {
+  transform: scale(1);
+}
+
+.contenedor img {
+  width: 30%;
+}
+
+.cabecera {
+  display: flex;
+  align-items: center;
+  background: #9ce4e4;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.cabecera h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.cabecera h3 {
+  color: white;
 }
